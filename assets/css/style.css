@@ -1,0 +1,74 @@
+.navbar{
+    padding: 20px;
+}
+.nav-link:hover{
+    background-color: rgb(128, 98, 86);
+}
+/* Container holding the image and the text */
+.contain {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.contain img{
+    filter: brightness(40%);
+    height: 550px;
+}
+  /* Centered text */
+  .centered {
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .content img{
+      height: 500px;
+  }
+  .aboutme-section{
+      padding: 40px 80px;
+      background-color:white;
+      color: black;
+  }
+  .aboutme-section h2{
+      text-align: center;
+      font-size: 60px;
+      margin-bottom: 40px;
+  }
+  .service-section{
+      padding: 30px;
+      text-align: center;
+      background-color: grey;
+      color: white;
+      margin-bottom: 40px;
+  }
+  .slider-content h2{
+      text-align: center;
+      padding: 30px;
+  }
+  .course-dop{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      
+  }
+  .service-section h2{
+      text-align: center;
+      padding: 40px;
+      margin: auto;
+      background-color: grey;
+      color:white;
+      font-size: 60px;
+  }
+
+.fa{
+    background-color: rgb(160, 141, 147);
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 100px;
+    text-align: center;
+}
+.copyright-content{
+    font-size: 30px;
+    text-align: center;
+}
